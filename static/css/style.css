@@ -1,0 +1,65 @@
+:root {
+  --nord0: #2E3440;
+  --nord1: #3B4252;
+  --nord2: #434C5E;
+  --nord3: #4C566A;
+  --nord4: #D8DEE9;
+  --nord5: #E5E9F0;
+  --nord6: #ECEFF4;
+  --nord7: #8FBCBB;
+  --nord8: #88C0D0;
+  --nord9: #81A1C1;
+  --nord10: #5E81AC;
+  --nord11: #BF616A;
+  --nord12: #D08770;
+  --nord13: #EBCB8B;
+  --nord14: #A3BE8C;
+  --nord15: #B48EAD;
+
+  background-color: var(--nord0);
+  color: var(--nord6);
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+h3 {
+  margin-top: 0;
+}
+h4 {
+  margin-bottom: 0;
+}
+a {
+  color: var(--nord8);
+  text-decoration: inherit;
+}
+a:visited {
+  color: var(--nord8);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--nord9);
+}
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10;
+  background-color: var(--nord1);
+  padding: 8px 16px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.border {
+  border-bottom: 1px solid var(--nord3);
+}
+main {
+  width: 60%;
+  margin: auto;
+}
+.metadata {
+  flex: 1;
+}
+.summary {
+  flex: 3;
+}
