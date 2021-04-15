@@ -1,0 +1,6 @@
+base_url = "https://example.com"
+compile_sass = true
+title = "Svalbard"
+
+[extra]
+svalbard_katex = true

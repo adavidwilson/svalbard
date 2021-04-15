@@ -1,0 +1,15 @@
+name = "svalbard"
+description = "A minimal academic blog theme"
+license = "GNU AGPLv3"
+homepage = "https://github.com/adavidwilson/svalbard"
+min_version = "0.4.0"
+# TODO: Deploy and add demo
+demo = ""
+
+[extra]
+svalbard_katex = true
+
+[author]
+name = "David A. Wilson"
+# TODO: Make a website lol
+homepage = ""
